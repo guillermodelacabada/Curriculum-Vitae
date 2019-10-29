@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Guillermo De La Cabada</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
@@ -18,13 +19,13 @@
             <nav class="menu">
                 <ol>
                     <li>
-                        <a class="link" href="#">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a class="link" href="#">Experiencia</a>
+                        <a class="link" href="#eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a class="link" href="#">Trabajemos juntos</a>
+                        <a class="link" href="#contacto">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
@@ -38,9 +39,11 @@
         </h1>
         <img src="img/hero.jpg" alt="imagen de portada" width="500">
     </section>
-    <section class="portafolio">
+
+    <section id="portafolio" class="portfolio">
+
         <h2>Portafolio (Proyectos Destacados)</h2>
-        <article>
+        <article class="project">
             <h3>Ávila Studio</h3>
             <h6>React</h6>
             <p> <small> <strong>Fecha:</strong> 09/10/2019 </small> </p>
@@ -52,19 +55,22 @@
             <img src="img/platzi-video-react-native.png" alt="proyecto del curso de react native" width="500">
         </article>
     </section>
-    <section>
+    <section id="eventos">
         <h3>Más sobre mi experiencia</h3>
         <article>
             <figure>
                 <img src="img/platzi-conf.jpg" alt="foto del evento" width="500">
             </figure>
             <h3>4Geeks Pizza and Beers: Html and CSS Introduction 2018 </h3>
-            <a href="">Ver página del evento</a>
+            <p>descripción</p>
+            <a href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank">Ver página del evento</a>
         </article>
     </section>
-    <section>
-        <form action="">
-            <input type="text">
+    <section id="contacto">
+        <form action="/suscripcion/">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="text" placeholder="Déjame tu email" id="email">
+            <button>Enviar</button>
         </form>
     </section>
     <footer>footer</footer>
