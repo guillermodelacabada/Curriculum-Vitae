@@ -12,15 +12,33 @@
 </head>
 
 <body>
+    <div class="flexbox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
     <header class="header">
         <div>
             <figure class="logo">
-                <img height="50px" src="img/logo.png" alt="Logo">
+                <img src="img/logo.png" alt="Logo">
             </figure>
             <nav class="menu">
                 <ol>
                     <li>
-                            <a class="link" href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
                         <a class="link" href="#eventos">Experiencia</a>
@@ -38,25 +56,43 @@
             Desarrollador Web <strong>Full Stack</strong> <br>
             con pasión por <strong>la enseñanza</strong>
         </h1>
-        <img src="img/hero.jpg" alt="imagen de portada" width="500">
     </section>
 
     <section id="portafolio" class="portfolio">
 
         <h2>Portafolio (Proyectos Destacados)</h2>
         <article class="project">
-            <h3 class="project-title">Ávila Studio</h3>
-            <h6 class="project-course">React</h6>
-            <p class="project-date"> <small> <strong>Fecha:</strong> 09/10/2019 </small> </p>
-            <p class="project-url"> <small> <strong>Puedes verlo en:</strong> avilastudio.com </small> </p>
-            <p class="project-description">El sitio web de Ávila Studio fue el resultado de 3 meses de trabajo
-                para crear una ventana agradable donde mostrar los proyectos audiovisuales
-                que he realizado a lo largo de mi carrera.
-            </p>
+            <div class="project-details">
+                <h3 class="project-title">Ávila Studio</h3>
+                <h6 class="project-course">React</h6>
+                <p class="project-date"> <small> <strong>Fecha:</strong> 09/10/2019 </small> </p>
+                <p class="project-url"> <small> <strong>Puedes verlo en:</strong> avilastudio.com </small> </p>
+                <p class="project-description">El sitio web de Ávila Studio fue el resultado de 3 meses de trabajo
+                    para crear una ventana agradable donde mostrar los proyectos audiovisuales
+                    que he realizado a lo largo de mi carrera.
+                </p>
+            </div>
             <figure class="project-imageContainer">
-                <img class="project-image" src="img/platzi-video-react-native.png" alt="proyecto del curso de react native" width="500">   
+                <img class="project-image" src="img/platzi-video-react-native.png"
+                    alt="proyecto del curso de react native" width="500">
             </figure>
         </article>
+        <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Ávila Studio</h3>
+                    <h6 class="project-course">React</h6>
+                    <p class="project-date"> <small> <strong>Fecha:</strong> 09/10/2019 </small> </p>
+                    <p class="project-url"> <small> <strong>Puedes verlo en:</strong> avilastudio.com </small> </p>
+                    <p class="project-description">El sitio web de Ávila Studio fue el resultado de 3 meses de trabajo
+                        para crear una ventana agradable donde mostrar los proyectos audiovisuales
+                        que he realizado a lo largo de mi carrera.
+                    </p>
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="img/platzi-video-react-native.png"
+                        alt="proyecto del curso de react native" width="500">
+                </figure>
+            </article>
     </section>
     <section id="eventos">
         <h3>Más sobre mi experiencia</h3>
@@ -66,7 +102,8 @@
             </figure>
             <h3 class="event-title">4Geeks Pizza and Beers: Html and CSS Introduction 2018 </h3>
             <p class="event-description">descripción</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank">Ver página del evento</a>
+            <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank">Ver página del
+                evento</a>
         </article>
     </section>
     <section id="contacto" class="contact">
